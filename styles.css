@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+  #main-doc {
+    margin-left: 292px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open sans", arial, helvetica;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+#navbar {
+  position: fixed;
+  width: 300;
+  height: 100%;
+  border-right: solid;
+  border-color: #000;
+}
+
+nav {
+  display: block;
+}
+
+header {
+  display: block;
+  margin: 10px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#navbar ul {
+  padding: 0px;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+#navbar li {
+  position: relative;
+  width: 100%;
+  color: #000;
+  list-style: none;
+}
+
+#navbar a {
+  display: block;
+  padding: 7px 20px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 280px;
+  padding: 10px;
+  margin-bottom: 110px;
+}
+
+.main-section {
+  margin: 15px;
+  font-size: 1.02em;
+}
+
+section p {
+  margin: 16px 0px;
+}
+
+section li {
+  margin: 16px 0px 0px 35px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  line-height: 1.5;
+  background-color: #7b7b7e;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 3px;
+}
